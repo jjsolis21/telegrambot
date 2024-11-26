@@ -197,7 +197,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # MENU COMBINACION DE GANAR
 
     elif query.data == 'combinacion_ganar':
-        photo_path = 'images/combinaciones.png'  # Asegúrate de que esta ruta sea correcta
+        photo_path = 'images/COMBINACIONES.png'  # Asegúrate de que esta ruta sea correcta
         try:
             with open(photo_path, 'rb') as photo:
                 await query.message.reply_photo(photo=photo, caption="Cada 𝗥𝗢𝗡𝗗𝗔 tiene un combinación de ganar distinta.👆 \n"
