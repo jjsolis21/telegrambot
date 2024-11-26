@@ -218,7 +218,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # DIA DE JUEGO
 
     elif query.data == 'dia_juego':
-        photo_path = 'images/dia_juego.png'  # Asegúrate de que esta ruta sea correcta
+        photo_path = 'images/DIA_JUEGO.png'  # Asegúrate de que esta ruta sea correcta
         try:
             with open(photo_path, 'rb') as photo:
                 await query.message.reply_photo(photo=photo, caption="Por ahora solo los 𝗦𝗔́𝗕𝗔𝗗𝗢𝗦 4️⃣PM⏰ \n"
